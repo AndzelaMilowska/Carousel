@@ -8,4 +8,4 @@ OOP practice
 	ID of element for carousel destination, <br />
 	Slidess content list with is nested array eg.[[bgColor, bgImg, heading1, Paragraph1, link, textColor][bgColor, bgImg, heading2, Paragraph2, link, textColor]]<br />
 * Button Images<br />
-* *Carousel font<br />
+* Carousel font<br />
