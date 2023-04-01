@@ -1,0 +1,57 @@
+:root{
+
+    --main-grey-color: #dadada;
+    --main-white-color: #ffffff;
+    --carousel__slide__h2-font-size: 2.5rem;
+    --carousel__slide__p-font-size: 1.5rem;
+    --carousel-background-color: var(--main-white-color);
+    --carousel__border-color: var(--main-grey-color);
+    --carausel__font: ;
+    --slide-width: 0vw;
+}
+
+body {
+    font-family: var(--carausel__font);
+}
+.carousel {
+    height: 420px;
+    border-top: 15px solid var(--carousel__border-color);
+    border-bottom: 15px solid var(--carousel__border-color);
+    background-color: var(--carousel-background-color);
+}
+
+.carousel__slides-container {
+    transform: translate(var(--slide-width));
+    height: 350px;
+    cursor: pointer;
+}
+
+.carousel__slide__text-padding {
+    padding-left: 20%;
+}
+
+.carousel__slide__h2 {
+    font-size: var(--carousel__slide__h2-font-size)
+}
+
+.carousel__slide__p {
+    font-size: var(--carousel__slide__p-font-size)
+}
+
+.carousel__btn {
+    top: 40%;
+    height: 40px;
+    width: 40px;
+}
+
+.carousel__prev-slide-btn {
+    transform: scaleX(-1);
+}
+
+.carousel__dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+  }
+
+
